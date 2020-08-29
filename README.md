@@ -2,8 +2,8 @@
 Kahoot Bot that searches for the answers itself.
 
 *Pros:*
- - Searches for the answers itself
- - Plays itself
+ - Searches for the answers itself.
+ - Plays itself.
  - Can join kahoot at any point and get answers correctly immediatly.
  - Has a realistic mode where answer times are randomized.
  
