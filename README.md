@@ -9,3 +9,6 @@ Kahoot Bot that searches for the answers itself.
  
 **Cons:**
  - Can be tricked by randomizing answers or using question types like true or false, type answer, puzzle, poll or slide.
+
+
+# Usage:
