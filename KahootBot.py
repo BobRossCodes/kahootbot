@@ -98,8 +98,3 @@ class KahootBot():
                     self.driver.find_element_by_xpath(self.search_with_xpath)
                 except:
                     break
-
-            if self.round == self.max_rounds:
-                break
-
-        print("Kahoot ended!")
