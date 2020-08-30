@@ -8,7 +8,7 @@ Kahoot Bot that searches for the answers itself.
  - Has a realistic mode where answer times are randomized.
  
 **Cons:**
- - Can be tricked by randomizing answers or using question types like true or false, type answer, puzzle, poll or slide.
+ - Can be tricked by randomizing questions and answers or by using question types like true or false, type answer, puzzle, poll or slide.
 
 
 # Usage:
