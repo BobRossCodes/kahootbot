@@ -9,7 +9,7 @@ Kahoot Bot that searches for the answers itself.
  
 **Cons:**
  - Can be tricked by randomizing questions and answers or by using question types like true or false, type answer, puzzle, poll or slide.
- - Can't join if there is 2 step join (pattern confirm) or if are picked by spinning the wheel.
+ - Can't join if there is 2 step join (pattern confirm), if name is already in use or if are picked by spinning the wheel.
 
 
 # Usage:
