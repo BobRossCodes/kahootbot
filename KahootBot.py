@@ -94,3 +94,4 @@ class KahootBot():
                     self.driver.find_element_by_xpath(self.search_with_xpath)
                 except:
                     break
+
