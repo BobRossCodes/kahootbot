@@ -3,7 +3,6 @@ from selenium.webdriver.common.keys import Keys
 from random import randint, choice
 from time import sleep
 
-
 class KahootBot():
     def play(self, kahoot_nickname, kahoot_pin, kahoot_url, is_realistic):
 
@@ -20,7 +19,6 @@ class KahootBot():
         # start webdriver (firefox)
         self.driver = webdriver.Firefox(executable_path=r"geckodriver/geckodriver.exe")
         self.driver.get(self.kahoot_url)  # go to kahoot.com/ for answers
-
 
         # GET KAHOOT ANSWERS
         # show answers
@@ -41,7 +39,6 @@ class KahootBot():
                 except:
                     i += 1 # --correct div wasn't found, choice was incorrect, continueing...
 
-
         # JOIN KAHOOT
         self.driver.get("https://kahoot.it/")  # go to kahoot.it/
 
@@ -52,7 +49,6 @@ class KahootBot():
         sleep(2)
         self.kahoot_nickname_textbox = self.driver.find_element_by_id("nickname")  # find nickname input
         self.kahoot_nickname_textbox.send_keys(self.kahoot_nickname + Keys.RETURN)  # send nickname
-
 
         # PLAY KAHOOT
         while True:
